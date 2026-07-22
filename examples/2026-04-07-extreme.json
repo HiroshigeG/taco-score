@@ -1,0 +1,150 @@
+{
+  "date": "2026-04-07",
+  "timestamp_v1": "2026-04-07T09:00:00Z",
+  "timestamp_v2": "2026-04-07T16:00:00Z",
+  "taco_score": 78,
+  "level": "EXTREME",
+  "delta_from_prev": 4,
+  "prev_score": 74,
+  "prev_date": "2026-04-05",
+  "_reconciliation_note": "Score v1 (09:00Z) era 68 — penalizzava deadline hard come riduttore del TACO drift graduale. Pattern-analyzer fresh restituisce 84 valorizzando precedenti Iran e pressione oil. Score riconciliato 78: integra entrambe le letture.",
+  "components": {
+    "intensita_retorica": {
+      "raw": 90,
+      "weight": 0.2,
+      "score": 18.0,
+      "detail": "Ultimatum 'bomb to stone age' + timing operazione specifico (4h) = retorica massima"
+    },
+    "timing_urgency": {
+      "raw": 95,
+      "weight": 0.15,
+      "score": 14.25,
+      "detail": "Deadline <24h, lunedì sera/martedì mattina = finestra critica"
+    },
+    "db_pressure": {
+      "raw": 82,
+      "weight": 0.15,
+      "score": 12.3,
+      "detail": "Brent $117/bbl — dolore economico massimo su Trump base (benzina, costi supply chain)"
+    },
+    "taco_precedente": {
+      "raw": 90,
+      "weight": 0.15,
+      "score": 13.5,
+      "detail": "Iran backtrack 2/3 precedenti (2019, 2024). Pattern quasi identico: ultimatum → back-channel → deal"
+    },
+    "polymarket_shift": {
+      "raw": 60,
+      "weight": 0.1,
+      "score": 6.0,
+      "detail": "Deal odds compresse ma non collassate. Mercato prezza ancora 45-48% deal"
+    },
+    "approval_pressure": {
+      "raw": 58,
+      "weight": 0.1,
+      "score": 5.8,
+      "detail": "Approval ~41%. Iran war popolare nel breve ma oil a $117 = pressione inflattiva su middle class"
+    },
+    "defense_down_signal": {
+      "raw": 70,
+      "weight": 0.1,
+      "score": 7.0,
+      "detail": "Defense -8% da inizio conflitto: mercato NON prezza pieno bombing (sarebbe -20%). Segnala deal atteso."
+    },
+    "budget_signaling": {
+      "raw": 60,
+      "weight": 0.05,
+      "score": 3.0,
+      "detail": "$2.2T defense budget = Trump vuole apparire forte senza guerra. Vincere il deal > fare la guerra."
+    }
+  },
+  "total_weighted": 79.85,
+  "taco_score_final": 78,
+  "pattern_match": {
+    "primary": "TACO #4 Iran Ultimatum — Hard Deadline (95% match)",
+    "secondary": "TACO #1 Liberation Day (30% — stessa struttura ultimatum/deadline, diverso dominio)",
+    "differenza_chiave": "Liberation Day era dazi (reversibile facilmente). Iran è militare (stakes più alti, ma incentivo economico oil a $117 è irresistibile per backtrack)."
+  },
+  "probabilita_backtrack": {
+    "overall": "73%",
+    "breakdown": {
+      "deal_annunciato": "45%",
+      "deadline_estesa": "28%",
+      "limited_strike_poi_deal": "18%",
+      "escalazione_prolungata": "9%"
+    },
+    "nota": "73% backtrack = probabilità che Trump NON bombardi come annunciato. Score 78 è il più alto mai registrato (Liberation Day era 72)."
+  },
+  "reversal_timeline": {
+    "window_critica": "4-18 ore dalla pubblicazione (entro martedì mattina NY)",
+    "deadline_iran": "2026-04-08 (martedì)",
+    "ore_rimaste": "<24h alla decisione",
+    "trigger_attesi": [
+      "Truth Social: 'Great progress with Iran' o simile",
+      "Iran official: disponibilità a negoziare",
+      "Oil futures: spike poi crash = mercato prezza deal",
+      "Polymarket: deal odds risalgono >35%"
+    ]
+  },
+  "confronto_pattern_storici": {
+    "TACO_1_Liberation_Day": {
+      "similarita": "30%",
+      "differenze": "Dazi vs minaccia militare. Diverso tipo di pressione, ma stessa logica ultimatum con deadline.",
+      "outcome_storico": "Backtrack in 72h, mercati +8% relief rally"
+    },
+    "TACO_2_Cina": {
+      "similarita": "25%",
+      "differenze": "Trade war reversibile, Iran è militare. Stakes diversi.",
+      "outcome_storico": "Deal parziale dopo 5 giorni"
+    },
+    "TACO_4_Iran_precedente": {
+      "similarita": "95%",
+      "match": "IDENTICO — ultimatum con deadline specifico → back-channel negotiation → deal o estensione",
+      "storico": "Trump Iran pattern: 2019 (JCPOA threats → deal), 2024 (attacco fallito → de-escalation rapida). 2/3 volte risolto con deal.",
+      "differenza_chiave": "Brent era $110 il 5/4, ora $117 — pressione economica aumentata = incentivo deal ancora maggiore"
+    }
+  },
+  "scenari_mercato": {
+    "se_deal_TACO": {
+      "probabilita": "45%",
+      "timeline": "4-8 ore",
+      "oil": "Brent crolla a $85-98 (-16-27%)",
+      "defense": "Defense stocks +8-12% recovery",
+      "spx": "+3-6% relief rally",
+      "eni": "ENI -10-15% (oil crash), rischio su +51.9% YTD",
+      "snam": "Lieve calo, più stabile (gas play)"
+    },
+    "se_deadline_estesa": {
+      "probabilita": "28%",
+      "timeline": "12-18 ore",
+      "oil": "Brent $108-120, volatilità alta",
+      "defense": "Sideways, incertezza continua",
+      "spx": "Flat o +1-2%"
+    },
+    "se_limited_strike_poi_deal": {
+      "probabilita": "18%",
+      "timeline": "1-2 giorni",
+      "oil": "Spike breve $125-135 poi ritraccia a $105-110",
+      "defense": "+5-8% nel breve",
+      "spx": "-3-5% poi recupero parziale",
+      "eni": "+12-15% spike poi -5-8% su de-escalation"
+    },
+    "se_escalazione_prolungata": {
+      "probabilita": "9%",
+      "timeline": "3+ giorni",
+      "oil": "Brent $130-160 (Hormuz closure risk)",
+      "defense": "+15-25% (Leonardo, LMT, Thales)",
+      "spx": "-8-12% (war premium)",
+      "eni": "+15-20% (oil shock premium)"
+    }
+  },
+  "segnali_chiave_osservati": {
+    "oil_spike": "Brent $117/bbl (+6.4% da $110 del 5/4). Livello pre-decisione massimale.",
+    "defense_down_8pct": "Defense stocks -8% da inizio guerra. Mercato NON prezza pieno bombing (sarebbe -20%). Segnale implicito di deal atteso.",
+    "lmt_underperform": "LMT -1.6% il 7/4 con mercato positivo. Il mercato vende il budget news, comprando rischio Iran.",
+    "trump_budget_signaling": "$2.2T defense budget = Trump vuole mostrarsi forte. Ma vuole 'vincere il deal' più che fare la guerra.",
+    "pentagon_supply_chain": "268-day rare earth deadline — fare la guerra ORA accelererebbe la crisi logistica. Incentivo strutturale per de-escalation."
+  },
+  "confidence": 0.81,
+  "nota_metodologica": "TACO score 78 è il più alto mai registrato (Liberation Day era 72). Misura la probabilità che Trump faccia backtrack sull'ultimatum Iran. Score alto = alta probabilità di deal/estensione deadline. Score riconciliato da v1 (68, 09:00Z) e analisi pattern-analyzer (84, 16:00Z). La differenza: v1 penalizzava il deadline hard come riduttore del TACO drift graduale; pattern-analyzer pesava di più i precedenti Iran e la pressione oil. Score finale 78 integra entrambe le letture."
+}

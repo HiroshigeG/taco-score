@@ -1,0 +1,184 @@
+{
+  "date": "2026-07-20",
+  "taco_score": 72,
+  "level": "HIGH",
+  "score_source": "manual-research-run",
+  "generated_at": "2026-07-20T12:00:00.000Z",
+  "backtrack_detected": true,
+  "backtrack_evidence": "Ciclo threaten-then-retreat freschissimo e ripetuto sul tema Hormuz: il 13/7 Trump minaccia una tassa del 20% su TUTTO il cargo nello Stretto di Hormuz + riavvio blocco navale iraniano; il 14/7 fa marcia indietro dichiarando che lo stretto 'is open to ALL Ship traffic except for Iran' (WaPo: 'Trump retreats from shipping toll', oil prices jump after threats). Oggi 20/7 la minaccia toll e' ri-condizionata ('unless the deal not be completed'), e il Segretario di Stato Rubio domenica ha detto che gli USA 'are open to diplomacy' mentre il petrolio ha limato i guadagni da ~$85 a ~$82 'on signs of renewed diplomatic efforts between the US and Iran' — ottica di backdown gia' segnalata dentro un'escalation cinetica attiva.",
+  "components": {
+    "intensita_retorica": {
+      "raw": 85,
+      "weight": 20,
+      "weighted": 17.0,
+      "note": "Retorica Trump al picco e DIRETTA su Iran (profilo TACO#3 'obliterate', non il post benzina del 1/7 che valeva 55). Lunedi' 20/7: post Truth Social early-morning su Iran/Israele + dichiarazioni White House pomeriggio 'We're attacking them tonight, and we're taking out all of their capability for anything having to do with the strait... in the end we will end up controlling the whole thing'. A monte: 10/7 'ceasefire is OVER', 11/7 minaccia di 'decimate' Iran, 13/7 toll 20% su Hormuz + blocco navale. Minaccia esistenziale, violenta, tema Iran esatto."
+    },
+    "timing_urgency": {
+      "raw": 68,
+      "weight": 15,
+      "weighted": 10.2,
+      "note": "Post Truth early-morning lunedi' + remarks WH pomeridiane, dentro la nona notte consecutiva di raid USA (tempo operativo altissimo). Deadline concreta e imminente: il blocco navale iraniano near-Hormuz e' fissato per riprendere martedi' 21/7 alle 16:00 ET (US CENTCOM) — trigger a <48h. Segnale weekend: commento diplomazia di Rubio domenica. Nessuna riunione banca centrale in 48h (ECB 23/7, +3gg, hold atteso). Manca il tipico post notturno pre-reversal isolato: qui e' escalation continua con hard deadline martedi'."
+    },
+    "db_pressure_index": {
+      "raw": 72,
+      "weight": 15,
+      "weighted": 10.8,
+      "note": "Proxy threatScore (feed DB proprietario non disponibile in refresh manuale): stimato ben sopra sia il 47 del 1/7 sia i picchi di giugno (25-47). Guerra cinetica attiva: 80+ target iraniani colpiti nell'ultima settimana, 3 militari USA uccisi + 1 disperso il 18/7 (prime vittime USA da marzo), rappresaglia iraniana con missili/droni su basi USA in Bahrain e Kuwait, WTI spinto fino a ~$85. Pressure reale, non solo dichiarativo."
+    },
+    "volume_anomaly_futures": {
+      "raw": 58,
+      "weight": 20,
+      "weighted": 11.6,
+      "note": "Componente-cardine e discriminante rispetto al 1/7 (dove valeva 15 con WTI in CALO e nessuna anomalia). Oggi il tema ha di nuovo market-moving power reale: WTI $82.21, spike intraday >$85, +16.8% vs $70.39 del 1/7; WaPo 14/7 'oil prices jump after Trump's threats' e il petrolio lima i guadagni sui segnali di diplomazia — cioe' reagisce direzionalmente ai post. MA il tape odierno e' ambiguo: WTI -0.34% sulla giornata, futures azionari POSITIVI (S&P +0.13%, Nasdaq +0.43%, Dow +0.02%), 68% prob. apertura in rialzo, VIX ~17.5 (ultimo dato 8/7, non panico). Nessuna evidenza di front-run anomalo pre-post stile TACO#3 ($580M venduti 16 min prima). Quindi: potere di mercato ripristinato (grande upgrade dal 1/7) ma senza spike anomalo acuto oggi."
+    },
+    "polymarket_spike": {
+      "raw": 62,
+      "weight": 10,
+      "weighted": 6.2,
+      "note": "Repricing brusco e in direzione ESCALATION (opposto allo spike di ottimismo del 1/7): 'Hormuz traffic returns to normal by July 31' crollato al 3%, 'by Aug 31' 17%, 'by Dec 31' sceso 85.5% -> 52.5% su $5.29M matched. 'US invade Iran before 2027' ~31% Yes (69% No). 'Peace deal by July 31' ~53% ma 'final nuclear deal by July 31' schiacciato a 1% dopo la disputa sulle transit fees di Hormuz. Movimento ampio e recente = spike genuino."
+    },
+    "taco_precedente_history": {
+      "raw": 93,
+      "weight": 10,
+      "weighted": 9.3,
+      "note": "Massimale. Iran/Hormuz e' il tema con il precedente TACO piu' ricco: TACO#3 (marzo 2026), il mini-ciclo di giugno (BACKTRACKED 11/6 -> DEEP_BACKTRACK 15-19/6), e ora un TACO sub-ciclo FRESCHISSIMO 13/7->14/7 (minaccia toll 20% Hormuz -> ritiro il giorno dopo). Stesso tema esatto, backtrack a 6 giorni fa."
+    },
+    "approval_pressure": {
+      "raw": 68,
+      "weight": 10,
+      "weighted": 6.8,
+      "note": "Questa volta con dati FRESCHI (non proxy come il 1/7): Economist/YouGov approval 37% / disapproval 59%, Echelon 38% — vicino ai minimi storici. Guerra profondamente impopolare: 57% dice 'wrong decision' (era 51% ad aprile), solo 27% a favore; gas prices alti che non convincono i voter; costo guerra ~$113.3B ai contribuenti. Forte incentivo politico a trovare un'uscita/backdown per alleggerire benzina ed economia."
+    }
+  },
+  "total_weighted": 71.9,
+  "lifecycle_premium": 0,
+  "pattern_comparison": {
+    "best_match": "TACO #3 — Iran/Hormuz (marzo 2026), ma stavolta come RE-ESCALATION cinetica calda con un sub-ciclo TACO fresco (toll Hormuz 13/7->14/7), non come eco/coda di backtrack (come era il 1/7)",
+    "similarity": 0.78,
+    "key_differences": "Molto piu' vicino a TACO#3 rispetto al 1/7 (0.65). Somiglianze forti: post/remarks Trump diretti e violenti su Iran ('attacking tonight... controlling the whole thing', profilo 'obliterate'), petrolio di nuovo reattivo ed elevato ($82, spike $85) che risponde direzionalmente alle minacce, e un backtrack sub-ciclo a soli 6 giorni (toll Hormuz minacciato 13/7 e ritirato 14/7). Differenze chiave: (1) in TACO#3 c'era un'anomalia di volume nei futures oil PRIMA del post (smart money front-running, $580M) — oggi NON c'e' evidenza di quel front-run pulito e anzi WTI e' -0.34% sulla giornata con futures azionari POSITIVI e VIX ~17.5, mercato stranamente calmo; (2) qui siamo in GUERRA CINETICA ATTIVA con vittime USA (3 morti 18/7) e nona notte di raid — cio' introduce un rischio reale che stavolta l'escalation TENGA invece di chickens-out (la tesi 'Trump Always Chickens Out' e' sotto stress quando ci sono morti americani veri). Secondo match: fronte tariffe (scadenza Section 122 il 24/7 -> sostituzione con dazi permanenti Section 301 'in coming days', + Brazil 25% Section 301) come possibile trigger TACO parallelo.",
+    "historical_outcome": "TACO#3 (marzo 2026): reversal in minuti, oil crolla, Dow +1000. Sub-ciclo 13/7->14/7: minaccia toll 20% su Hormuz -> ritiro il giorno dopo ('strait open to ALL except Iran'), il petrolio che era saltato restituisce parte del rialzo. Se il pacchetto odierno ('attacking tonight' + toll 20% + blocco navale martedi' 4pm) segue lo stesso copione, atteso un ulteriore climb-down parziale entro 24-72h con oil che ritraccia. Rischio di coda (contro-TACO): con vittime USA e 9 notti di raid, questa volta l'escalation potrebbe non rientrare e spingere oil/VIX piu' in alto prima di qualsiasi reversal — scenario che sposterebbe lo score verso EXTREME in poche ore."
+  },
+  "probabilita_backtrack": {
+    "nota": "A differenza del 1/7 (deep-backtrack gia' consolidato) qui il ciclo IRAN_OIL e' RIATTIVATO in fase di escalation cinetica. Si stima la probabilita' di un climb-down/backtrack tattico sulle minacce Hormuz odierne (toll+blocco) vs il rischio che l'escalation tenga.",
+    "backdown_tattico_toll_hormuz_48h": "55% — pattern threaten-then-retreat gia' ripetuto il 13/7->14/7; Rubio 'open to diplomacy'; toll condizionato 'unless deal not completed'",
+    "escalation_tiene_e_sale_48h": "35% — guerra cinetica reale con vittime USA e nona notte di raid; blocco navale martedi' 21/7 4pm ET come hard trigger",
+    "nuovo_trigger_tariffe_section301": "45% entro 1 settimana — scadenza Section 122 il 24/7 e sostituzione con dazi permanenti Section 301 attesa 'in coming days' (+ Brazil 25% gia' annunciato)",
+    "fine_escalation_stimata": "indeterminata — dipende dall'esito del deadline blocco navale del 21/7 e dai negoziati (finestra 60gg del memorandum di giugno di fatto saltata dopo il voiding iraniano)"
+  },
+  "reversal_timeline": "48h: ~55% probabilita' di un backdown tattico sulle minacce Hormuz (toll/blocco) coerente col ritiro 13/7->14/7, con oil che lima; ~35% che l'escalation tenga e spinga oil/VIX oltre gli $85, spostando lo score verso EXTREME. Il crocevia e' la deadline del blocco navale iraniano di martedi' 21/7 alle 16:00 ET. 1 settimana: probabile persistenza del ciclo threaten-retreat su Hormuz + apertura di un fronte TACO parallelo sui dazi (Section 122 scade il 24/7, sostituzione Section 301 attesa). 2 settimane: se il pattern regge, ritorno del tema verso una fase di backtrack; se emerge un vero shock cinetico (chiusura effettiva e prolungata di Hormuz), lo scenario diverge verso il rischio.",
+  "lifecycle": {
+    "phase": "RE_ESCALATION_KINETIC",
+    "activePattern": "IRAN_OIL",
+    "cooldown_weeks_remaining": 0,
+    "cooldown_end_estimated": null,
+    "note_fase": "Il cooldown DEEP_BACKTRACK stimato al 10/7 nel file del 1/7 e' scaduto e un NUOVO ciclo di escalation e' partito dal 10/7 ('ceasefire is OVER'). Evento IRAN_OIL riaperto e attivo, non in cooldown.",
+    "events": [
+      {
+        "id": "IRAN_OIL-2026-07-01",
+        "pattern": "IRAN_OIL",
+        "status": "DEEP_BACKTRACK_CONTINUATION",
+        "threatScore": 47,
+        "evidence": "Weekend tit-for-tat, Hormuz ri-dichiarato chiuso, MA WTI in calo (70.39, -24.6% da picco) — escalation non priced-in",
+        "cooldown_day": 19
+      },
+      {
+        "id": "IRAN_OIL-2026-07-10",
+        "pattern": "IRAN_OIL",
+        "status": "RE_ESCALATION_START",
+        "threatScore": 55,
+        "evidence": "Trump 'ceasefire is OVER' (talks continuano); 11/7 minaccia 'decimate' Iran; Iran colpisce 3 vessel commerciali fuori rotta preapprovata",
+        "cooldown_day": 0
+      },
+      {
+        "id": "IRAN_OIL-2026-07-13",
+        "pattern": "IRAN_OIL",
+        "status": "ESCALATION",
+        "threatScore": 68,
+        "evidence": "Trump propone toll 20% su tutto il cargo di Hormuz + riavvio blocco navale; oil salta sulle minacce",
+        "cooldown_day": 0
+      },
+      {
+        "id": "IRAN_OIL-2026-07-14",
+        "pattern": "IRAN_OIL",
+        "status": "BACKTRACKED",
+        "threatScore": 42,
+        "evidence": "Trump ritira la toll: 'strait open to ALL Ship traffic except for Iran' — TACO sub-ciclo classico a 24h",
+        "cooldown_day": 0
+      },
+      {
+        "id": "IRAN_OIL-2026-07-18",
+        "pattern": "IRAN_OIL",
+        "status": "RE_ESCALATION_KINETIC",
+        "threatScore": 72,
+        "evidence": "3 militari USA uccisi + 1 disperso (prime vittime USA da marzo); USA lanciano raid; Iran 'peace deal voided, existential war'",
+        "cooldown_day": 0
+      },
+      {
+        "id": "IRAN_OIL-2026-07-20",
+        "pattern": "IRAN_OIL",
+        "status": "RE_ESCALATION_KINETIC",
+        "threatScore": 72,
+        "evidence": "Nona notte di raid USA (80+ target); Trump 'attacking them tonight... controlling the whole thing'; toll 20% 'unless deal not completed'; blocco navale a martedi' 21/7 16:00 ET; WTI $82.21 (spike $85); Rubio 'open to diplomacy'. Approval 37%/disapproval 59%.",
+        "cooldown_day": 0
+      }
+    ]
+  },
+  "market_snapshot": {
+    "wti_oil": {
+      "price": 82.21,
+      "change_24h_pct": -0.34,
+      "intraday_high_approx": 85.0,
+      "change_from_7_01_pct": 16.8,
+      "note": "WTI ha brevemente superato $85 poi limato a ~$82 'as signs of renewed diplomatic efforts between the US and Iran eased some supply concerns'. Reattivo alle minacce (WaPo 14/7 'oil prices jump after Trump's threats'), a differenza del 1/7 dove era in calo."
+    },
+    "brent_oil": {
+      "price": null,
+      "note": "Prezzo Brent puntuale del 20/7 non fetchato con feed live pulito; ultimo riferimento affidabile $77.53 (8/7). Da ri-validare."
+    },
+    "gas_consumer_usa": {
+      "note": "Gas al consumo USA riportato 'high' e politicamente penalizzante nei sondaggi; valore puntuale AAA del 20/7 non fetchato. Da ri-validare."
+    },
+    "sp500": {
+      "futures_7_20_premarket_pct": 0.13,
+      "nasdaq100_futures_pct": 0.43,
+      "dow_futures_pct": 0.02,
+      "prob_open_up_pct": 68,
+      "note": "Futures POSITIVI nonostante la guerra: attenzione mercato su earnings mega-cap tech (GOOGL, TSLA) in settimana + ECB giovedi'. Mercato tratta l'escalation come relativamente contenuta finora."
+    },
+    "vix": {
+      "level_approx": 17.5,
+      "as_of": "2026-07-08",
+      "note": "Ultimo dato affidabile 8/7 (VIX +8.8% a 17.55 dopo 'ceasefire is OVER'). Non panico. Da ri-validare per il 20/7."
+    },
+    "defense": {
+      "note": "LMT/NOC in rialzo sugli annunci di fine-ceasefire (LMT ~+0.9/1.1%, NOC ~+1.1/1.2% in sedute recenti) MA il settore ha SOTTOPERFORMATO dall'inizio delle ostilita' (LMT -19%, NOC -24% cumulati) — pattern 'buy the rumor' tattico dentro un trend debole. Nessun dato puntuale 20/7 confermato."
+    },
+    "polymarket_iran": {
+      "hormuz_normal_by_jul31_pct": 3,
+      "hormuz_normal_by_aug31_pct": 17,
+      "hormuz_normal_by_dec31_pct": 52.5,
+      "hormuz_normal_by_dec31_prev_pct": 85.5,
+      "us_invade_iran_before_2027_yes_pct": 31,
+      "peace_deal_by_jul31_pct": 53,
+      "final_nuclear_deal_by_jul31_pct": 1,
+      "note": "Repricing brusco in direzione escalation su $5.29M matched sui contratti Hormuz."
+    },
+    "tariffs": {
+      "section_122_authority_expires": "2026-07-24",
+      "replacement": "Dazi permanenti attesi via Section 301 'in coming days' (reverse-engineering dei reciprocal tariffs)",
+      "brazil_section301_pct": 25,
+      "note": "Fronte parallelo con catalizzatore datato (24/7) — candidato al prossimo TACO event non-Iran."
+    }
+  },
+  "central_banks": [
+    {
+      "bank": "ECB",
+      "event": "rate decision",
+      "when": "2026-07-23 13:45 CET (press conf. Lagarde 14:30)",
+      "expected": "hold a 2.25% (~88% prezzato; ~70% economisti vedono rialzo a settembre)",
+      "actual": null
+    }
+  ],
+  "confidence": 0.6,
+  "analyst_note": "Score HIGH 72, in forte salita dal 47 del 1/7. Il salto e' guidato dalla RIATTIVAZIONE cinetica del ciclo IRAN_OIL: retorica Trump al picco e diretta su Iran (comp. 20%), pressure reale con vittime USA e nona notte di raid (comp. 15%), e soprattutto il ritorno del market-moving power sul petrolio (WTI $82, spike $85) che il 1/7 era assente (WTI in calo) — la comp. piu' pesante (volume_anomaly_futures 20%) risale da 15 a 58. Precedente TACO massimale con un sub-ciclo threaten-retreat freschissimo (toll Hormuz 13/7->14/7). Elementi di cautela che impediscono un EXTREME: il tape azionario e' stranamente calmo (futures positivi, VIX ~17.5, 68% up open, WTI -0.34% sulla giornata) e manca il front-run anomalo pulito stile TACO#3; inoltre la guerra e' cinetica e con morti americani, quindi la tesi 'Trump chickens out' e' sotto stress e l'escalation potrebbe stavolta TENERE. backtrack_detected=true per il ciclo threaten-retreat gia' ripetuto e i segnali di diplomazia (Rubio 'open to diplomacy', toll condizionato 'unless deal'). NOTA METODOLOGICA: run manuale; tutti i numeri provengono da WebSearch con fonti datate — feed DB proprietario (db_pressure_index/threatScore) proxato, e Brent/gas/VIX/prezzi defense puntuali del 20/7 NON fetchati con feed live pulito (marcati da ri-validare). Il dato piu' determinante (WTI $82.21) e' confermato da fonte mercato del 20/7."
+}
