@@ -28,6 +28,10 @@ The instrument watched the Iran/Hormuz escalation climb to **78/EXTREME** — an
 
 These are not backtested numbers. Each JSON was produced on its date, warts included: three schema generations, proxied fields flagged as proxied, and one day where two conflicting runs were reconciled in writing (†the earliest readings also predate the standardized level thresholds — they are shown as recorded, with a footnote, not rewritten).
 
+## Did it actually work?
+
+Scored honestly: **one flagship predictive call** (the 78/EXTREME peak — a ceasefire landed within hours and oil gave back 16%), **zero false EXTREMEs**, two quiet months scored quiet, one refusal to spike that avoided a false alarm (Jul 1, rhetoric at maximum but the market wasn't moving), and one **split outcome called with its own caveat attached** (Jul 20 → Jul 21–22: the Hormuz toll was dropped, the blockade proceeded). Ten readings, one theme, no control group — **promising, not proven**, and the file that says so out loud is [`docs/track-record.md`](docs/track-record.md).
+
 ## How the score works
 
 Seven weighted components, each scored 0–100 from public signals:
