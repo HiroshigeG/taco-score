@@ -12,6 +12,20 @@ scheduled │ signal-scanner │ ───────────────�
 
 **Separation of concerns:** the scanner *collects* (posts, futures, prediction markets, news, central-bank calendar) and is forbidden from judging; the analyzer *scores* against the methodology and historical patterns and is forbidden from collecting. Each reading records its `score_source` (scheduled vs manual run) and a `confidence`.
 
+## What data feeds what — the interfacing map
+
+| Component | Data interfaced | Where it comes from |
+|---|---|---|
+| Rhetoric intensity | posts: intensity keywords, ALL-CAPS, named threats, **theme match** | Truth Social / post trackers |
+| Timing urgency | post timestamps (night/weekend patterns) + macro-event proximity | archives + central-bank calendars |
+| DB pressure index | 4-week changes: S&P 500, 10Y Treasury yield, 1Y inflation expectations, approval — modeled on Deutsche Bank's unpublished index | FRED (`SP500`, `DGS10`, `MICH`/`T5YIFR`) + polling averages — [replication recipe](db-pressure-proxy.md) |
+| Futures volume anomaly | oil (WTI/Brent) and S&P e-mini volume & price *versus the direction of the threat* | market data |
+| Prediction-market spike | event-contract repricing on the active themes | Polymarket / Kalshi public markets |
+| Historical precedent | library of completed TACO cycles + lifecycle state (fresh trigger vs echo/cooldown) | the instrument's own past readings |
+| Approval pressure | polling averages; visible proxies (gas prices) when polling is stale | public polls |
+
+**How they interface.** Every source is reduced to one `raw` 0–100 *with a written evidence note* — that's the whole trick: heterogeneous data (a bond yield, a post's capitalization, an event-contract price) become comparable only after each is judged against its own scale and forced to show its work. Then the arithmetic is deterministic: `score = round(Σ raw × weight / 100)`. Three cross-cutting layers sit outside the sum: the **backtrack scan** (de-escalation keywords in posts/news → flag + quote), the **pattern comparison** (similarity to completed cycles + expected outcome), and the **lifecycle state machine** (a theme in echo/cooldown is worth less than a fresh trigger). Institutional precedents each read one layer — Deutsche Bank only macro pain, Volfefe only tweets-vs-rates-vol. The interfacing *is* the instrument.
+
 **The contract is the honesty mechanism.** Every component must ship `raw`, `weight`, and a written evidence `note`; the backtrack flag requires a quote; proxied fields must say they're proxied; anything not cleanly fetched is marked *to re-validate*. When two runs disagreed (Apr 7), the resolution was written into the reading as a reconciliation note instead of silently overwriting. The demo page recomputes the weighted sum in front of you — including the one day it doesn't match.
 
 ---

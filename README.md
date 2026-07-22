@@ -37,7 +37,7 @@ Seven weighted components, each scored 0–100 from public signals:
 | Rhetoric intensity | 20 | how aggressive and *on-theme* the posts are |
 | Futures volume anomaly | 20 | is the market actually moving on the story? (often the decisive tell) |
 | Timing urgency | 15 | night/weekend posting patterns + proximity of macro events |
-| Pressure index | 15 | aggregate threat level (public proxy, declared as such) |
+| DB pressure index | 15 | macro pressure to reverse course — modeled on Deutsche Bank's unpublished index (declared proxy) |
 | Prediction-market spike | 10 | repricing in event-market odds |
 | Historical precedent | 10 | how strong and recent the same-theme precedent is |
 | Approval pressure | 10 | domestic political pressure to find an exit |
@@ -54,14 +54,17 @@ Seven weighted components, each scored 0–100 from public signals:
 
 ## Prior art (and what's new here)
 
-Quantifying presidential posts is not a new idea — that's part of why it's a good one:
+Measuring this is not a new idea — that's part of why it's a good one. The pieces existed; nobody had interfaced them:
 
-- **JPMorgan's "Volfefe Index" (2019)** measured the impact of Trump tweets on US Treasury volatility — the original "measure the meme" precedent.
+- The **"TACO trade"** label was coined by Robert Armstrong at the Financial Times (May 2025) — it even has a Wikipedia page.
+- **Deutsche Bank built the institutional index**: Maximilian Uleer's cross-asset team created a "Pressure Index" from four macro pain points (4-week changes in the S&P 500, the 10Y Treasury yield, 1Y inflation expectations, presidential approval — equal weight). Its formula and values were **never published**; the index is known only through press coverage. This repo documents a [public replication recipe](docs/db-pressure-proxy.md) — and uses the concept as *one component out of seven*.
+- **JPMorgan's "Volfefe Index" (2019)** had already quantified Trump-tweet impact on Treasury volatility — the original measure-the-meme precedent.
 - **Academic event studies** (2018–2021) repeatedly found that posts about trade, tariffs and the Fed moved futures, volatility and volume in measurable ways; sentiment and ALL-CAPS intensity are standard features in that literature.
 - **Public archives** (the Trump Twitter Archive; Truth Social trackers) make the linguistic raw material — recurring phrases, posting times, day-of-week patterns — fully minable.
-- The **"TACO trade"** label itself was coined at the Financial Times in 2025.
 
-What I haven't found anywhere: a *reversal-setup* score — something that quantifies the **threaten → retreat** cycle specifically, with components and evidence written down, published while it happens. That's the gap this instrument fills. The honest corollary is on the roadmap: mine the archives for phrase-level tells (the sign-off "thank you for your attention to this matter", night vs weekend timing) and validate the timing bonus empirically instead of by anecdote.
+**What nobody had done is interface the layers.** DB's index reads only macro pain. Volfefe read only tweets against rates volatility. This instrument fuses the institutional pressure signal (rebuilt as a declared public proxy), the social-linguistic layer (rhetoric, CAPS, timing), the futures tape (is the market actually moving on the story?), prediction-market odds, historical pattern memory with a lifecycle state machine, and keyword-level backtrack detection — into one auditable number where every component carries its evidence. That composite, published while it happens, is the gap this repo fills.
+
+The honest corollary is on the roadmap: mine the archives for phrase-level tells (the sign-off "thank you for your attention to this matter", night vs weekend timing) and validate the timing bonus empirically instead of by anecdote.
 
 ## How a reading is made
 

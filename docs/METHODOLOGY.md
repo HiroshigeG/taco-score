@@ -23,8 +23,9 @@ Scale anchors: 0 = no relevant posts · ~55 = aggressive but not extreme · 85+ 
 The posting pattern (night / pre-market / **weekend** posts carry a structural reversal bonus — historical backtracks often start there) plus proximity of macro events (central-bank decisions within 48h amplify).
 Jul 20 reading: **68** (continuous escalation with a hard deadline, but missing the classic isolated pre-reversal night post).
 
-### 3. Pressure index — weight 15
-An aggregate threat/pressure level. **In this public version it is a declared proxy** (the original private feed is not shipped); candidate public sources: GDELT tone, news-sentiment/escalation-count composites. Readings that used the proxy say so in their notes.
+### 3. DB pressure index — weight 15
+Modeled on the **Deutsche Bank Pressure Index** — the institutional "TACO index" built by Maximilian Uleer's cross-asset strategy team (~May 2025): four equal-weight pain points (4-week changes in the S&P 500, the 10-year Treasury yield, 1-year inflation expectations, and presidential approval), on the logic that when all four hurt at once, the incentive to reverse course is maximal. **DB's exact formula and numeric values were never published** — the index is known only qualitatively through press coverage.
+This component tracks that pressure concept on a 0–100 scale. In these readings it is fed by an internal threat-scoring feed or, when that isn't available, a **declared proxy** — and a full public replication recipe (FRED series + polling averages, with its open problems stated) is documented in [`db-pressure-proxy.md`](db-pressure-proxy.md).
 Jul 20 reading: **72** (proxied, declared).
 
 ### 4. Futures volume anomaly — weight 20 (often the decisive tell)
