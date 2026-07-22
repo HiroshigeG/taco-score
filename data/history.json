@@ -153,7 +153,8 @@
      "weight": 10,
      "note": "Pressione ridotta con ceasefire"
     }
-   }
+   },
+   "backtrack_evidence": "Ceasefire Iran annunciato 7 aprile con riapertura Hormuz condizionata. Oil -16% in un giorno. Pattern identico a TACO #3 Iran/Hormuz storico."
   },
   {
    "date": "2026-06-11",
@@ -200,7 +201,8 @@
      "note": "Nessuna pressione politica interna immediata, notizie trial assenti, metriche approval stabili"
     }
    },
-   "confidence": 0.92
+   "confidence": 0.92,
+   "backtrack_evidence": "Lifecycle IRAN_OIL in stato BACKTRACKED da 00:29 UTC — ceasefire confermato, volume futures oil sotto media, Defense stocks flat"
   },
   {
    "date": "2026-06-12",
@@ -247,7 +249,8 @@
      "note": "Nomina Jay Clayton (intelligence chief) = mossa politica interna. FISA Section 702 scade domani per mancato rinnovo — frizione Congresso ma non trigger tariffe/geopolitica"
     }
    },
-   "confidence": 0.88
+   "confidence": 0.88,
+   "analyst_note": "Score 16 vs 19 ieri: calo guidato da VIX in discesa (-3.1%), volume oil ai minimi (42% norma), e zero segnali Truth Social. Il background noise Section 301 e USMCA deadline luglio mantengono il floor a 16 invece di scendere sotto 15. Fase cooldown IRAN_OIL integra, pattern storico rispettato."
   },
   {
    "date": "2026-06-15",
@@ -294,7 +297,9 @@
      "note": "Nessuna pressione domestica estrema identificata oggi. Trump in deal-maker mode = posizione di forza politica relativa. Nessuna frizione Congresso su Iran questa settimana."
     }
    },
-   "confidence": 0.82
+   "confidence": 0.82,
+   "backtrack_evidence": "Trump 'signing imminent' (Truth Social 12/06). Ceasefire 'imminent' confermato scan 15/06. Trump in deal-maker mode. Keywords esplicite nel scan: ceasefire, deal, imminent, signing imminent, backs down from military ops. Polymarket 70% $87M conferma consenso mercato.",
+   "analyst_note": "Score MEDIUM 47 ma situazione strutturalmente anomala: il mercato ha già eseguito il TACO trade (-13.7% oil, S&P ATH) PRIMA della firma ufficiale. Non è un segnale di escalation in arrivo ma di deep backtrack anticipato. Il lifecycle premium -10 riduce il raw 57 perché la fase POST_BACKTRACK già consolidata non giustifica alert di escalation. Rischio residuo a breve: BoJ hike domani potrebbe introdurre volatility orthogonale non correlata a Trump."
   },
   {
    "date": "2026-06-19",
@@ -341,7 +346,8 @@
      "note": "Trump in posizione politica solida: gas sotto $4 (vittoria narrativa consumer), deal Intel-Apple (reindustrializzazione USA). Nessuna frizione Congresso visibile, nessuna pressione domestica attiva. Musk $55B Terafab (ASML event 15/06) rafforza narrativa tech-industriale."
     }
    },
-   "confidence": 0.8
+   "confidence": 0.8,
+   "analyst_note": "Score LOW 22 in continuazione ordinata del DEEP_BACKTRACK IRAN_OIL. Siamo al giorno ~10 del cooldown dalla conferma del backtrack (12/06: 'signing imminent'). Ciclo sta completando la sua traiettoria naturale verso il basso. Trump in modalità costruttiva (deal Intel-Apple, gas sotto $4 = vittoria narrativa). Nessun trigger visibile di ri-escalation nelle prossime 48h. Unico rischio residuo a breve: CATL/Cina se Trump decide di aprire un secondo fronte commerciale ora che Iran è 'gestito'. Fine cooldown stimata ~10 luglio 2026 — watch window per nuovo ciclo TACO."
   },
   {
    "date": "2026-07-01",
@@ -388,7 +394,9 @@
      "note": "Nessun dato fresco di approval rating. Proxy: gap benzina reale $3.85/gal vs target dichiarato $2.50/gal (+54%) genera pressione pubblica visibile, da cui il post minaccioso ai retailer. Pressione politica interna moderata-alta ma non quantificata da polling."
     }
    },
-   "confidence": 0.6
+   "confidence": 0.6,
+   "backtrack_evidence": "Pochi giorni prima della ri-chiusura di Hormuz, USA e Iran avevano firmato un memorandum d'intesa per la riapertura dello stretto; su Polymarket 'US x Iran deal by July 31' e' salito al 53% dopo commenti del Segretario di Stato Rubio che suggerivano un annuncio di pace vicino, e 'diplomatic meeting by July 31' e' all'80% — segnali di deal-making in corso nonostante il cessate-il-fuoco resti fragile e sotto stress per gli scambi tit-for-tat del weekend.",
+   "analyst_note": "Score MEDIUM 47, in salita rispetto al 22 del 19/6 ma trainato soprattutto da retorica/precedente storico (componenti a peso 20% e 10%) piuttosto che da conferma di mercato: il fattore piu' pesante (volume anomalo futures, 20%) resta basso (15/100) perche' WTI ha continuato a scendere nonostante il weekend di attacchi tit-for-tat USA-Iran e la ri-dichiarazione di chiusura di Hormuz da Teheran. Questo e' il segnale chiave: il mercato oil tratta l'escalation come rumore dentro un lifecycle DEEP_BACKTRACK_CONTINUATION gia' maturo (day 19), non come un nuovo trigger. Non si apre un nuovo evento nel lifecycle IRAN_OIL. Il prossimo vero potenziale trigger TACO e' sul fronte tariffe (60 partner, audizione USTR 7/7), non su Iran. Nota metodologica: i tool alphavantage/websearch disponibili in questa run non hanno restituito quotazioni live pulite per oggi 1/7 — tutti i numeri sono ancorati ai dati con timestamp esplicito gia' presenti nel morning scan; raccomandato ri-validare il dato WTI (input piu' determinante per lo score) con un feed live appena disponibile."
   },
   {
    "date": "2026-07-20",
@@ -435,7 +443,9 @@
      "note": "Questa volta con dati FRESCHI (non proxy come il 1/7): Economist/YouGov approval 37% / disapproval 59%, Echelon 38% — vicino ai minimi storici. Guerra profondamente impopolare: 57% dice 'wrong decision' (era 51% ad aprile), solo 27% a favore; gas prices alti che non convincono i voter; costo guerra ~$113.3B ai contribuenti. Forte incentivo politico a trovare un'uscita/backdown per alleggerire benzina ed economia."
     }
    },
-   "confidence": 0.6
+   "confidence": 0.6,
+   "backtrack_evidence": "Ciclo threaten-then-retreat freschissimo e ripetuto sul tema Hormuz: il 13/7 Trump minaccia una tassa del 20% su TUTTO il cargo nello Stretto di Hormuz + riavvio blocco navale iraniano; il 14/7 fa marcia indietro dichiarando che lo stretto 'is open to ALL Ship traffic except for Iran' (WaPo: 'Trump retreats from shipping toll', oil prices jump after threats). Oggi 20/7 la minaccia toll e' ri-condizionata ('unless the deal not be completed'), e il Segretario di Stato Rubio domenica ha detto che gli USA 'are open to diplomacy' mentre il petrolio ha limato i guadagni da ~$85 a ~$82 'on signs of renewed diplomatic efforts between the US and Iran' — ottica di backdown gia' segnalata dentro un'escalation cinetica attiva.",
+   "analyst_note": "Score HIGH 72, in forte salita dal 47 del 1/7. Il salto e' guidato dalla RIATTIVAZIONE cinetica del ciclo IRAN_OIL: retorica Trump al picco e diretta su Iran (comp. 20%), pressure reale con vittime USA e nona notte di raid (comp. 15%), e soprattutto il ritorno del market-moving power sul petrolio (WTI $82, spike $85) che il 1/7 era assente (WTI in calo) — la comp. piu' pesante (volume_anomaly_futures 20%) risale da 15 a 58. Precedente TACO massimale con un sub-ciclo threaten-retreat freschissimo (toll Hormuz 13/7->14/7). Elementi di cautela che impediscono un EXTREME: il tape azionario e' stranamente calmo (futures positivi, VIX ~17.5, 68% up open, WTI -0.34% sulla giornata) e manca il front-run anomalo pulito stile TACO#3; inoltre la guerra e' cinetica e con morti americani, quindi la tesi 'Trump chickens out' e' sotto stress e l'escalation potrebbe stavolta TENERE. backtrack_detected=true per il ciclo threaten-retreat gia' ripetuto e i segnali di diplomazia (Rubio 'open to diplomacy', toll condizionato 'unless deal'). NOTA METODOLOGICA: run manuale; tutti i numeri provengono da WebSearch con fonti datate — feed DB proprietario (db_pressure_index/threatScore) proxato, e Brent/gas/VIX/prezzi defense puntuali del 20/7 NON fetchati con feed live pulito (marcati da ri-validare). Il dato piu' determinante (WTI $82.21) e' confermato da fonte mercato del 20/7."
   }
  ]
 }
