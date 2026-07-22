@@ -1,0 +1,51 @@
+{
+  "protocol": "docs/validation-protocol.md",
+  "labeled": "2026-07-22",
+  "horizon_days": 7,
+  "outcomes": [
+    {"date": "2026-03-31", "score": 58, "level": "HIGH", "outcome": "backtrack_completed", "days_to_event": 7,
+     "what_happened": "Escalation kept building; ceasefire announced Apr 7 (day 7), oil −16% the next day.",
+     "evidence": "documented in the 2026-04-09 reading", "hit": true},
+    {"date": "2026-04-05", "score": 74, "level": "HIGH", "outcome": "backtrack_completed", "days_to_event": 2,
+     "what_happened": "Ultimatum window opened (Apr 8 deadline); ceasefire announced Apr 7.",
+     "evidence": "documented in the 2026-04-09 reading", "hit": true},
+    {"date": "2026-04-07", "score": 78, "level": "EXTREME", "outcome": "backtrack_completed", "days_to_event": 0,
+     "what_happened": "Ceasefire announced the same day, after the morning reading; oil −16% in a day; score at 25 with backtrack detected by Apr 9.",
+     "evidence": "documented in the 2026-04-09 reading", "hit": true,
+     "note": "the flagship call — reading produced hours before the announcement"},
+    {"date": "2026-04-09", "score": 25, "level": "LOW", "outcome": "quiet_continued", "days_to_event": null,
+     "what_happened": "Post-backtrack cooldown held; no re-escalation within the horizon.",
+     "evidence": "June readings document the extended quiet", "hit": true},
+    {"date": "2026-06-11", "score": 19, "level": "LOW", "outcome": "quiet_continued", "days_to_event": null,
+     "what_happened": "Ceasefire held, volumes below average.", "evidence": "2026-06-12 reading", "hit": true},
+    {"date": "2026-06-12", "score": 16, "level": "LOW", "outcome": "quiet_continued", "days_to_event": null,
+     "what_happened": "Cooldown deepened; zero Truth Social signals.", "evidence": "2026-06-15 reading", "hit": true},
+    {"date": "2026-06-15", "score": 47, "level": "MEDIUM", "outcome": "flare_faded", "days_to_event": null,
+     "what_happened": "The market had already executed the reversal trade (oil −13.7%, S&P ATH) before the official signing; the flare faded to 22 by Jun 19.",
+     "evidence": "2026-06-19 reading", "hit": true,
+     "note": "MEDIUM claims 'watch, not actionable' — no completed cycle event followed"},
+    {"date": "2026-06-19", "score": 22, "level": "LOW", "outcome": "quiet_continued", "days_to_event": null,
+     "what_happened": "Orderly cooldown continued; the reading estimated the cooldown ending ~Jul 10 — re-escalation began Jul 10.",
+     "evidence": "2026-07-01 and 2026-07-20 readings", "hit": true,
+     "note": "the cooldown-end estimate landed on the exact re-escalation date"},
+    {"date": "2026-07-01", "score": 47, "level": "MEDIUM", "outcome": "quiet_then_reescalation_day9", "days_to_event": 9,
+     "what_happened": "Nothing tradable within the 7-day horizon; kinetic re-escalation began Jul 10 ('ceasefire is OVER').",
+     "evidence": "2026-07-20 reading", "hit": true,
+     "note": "the reading refused to spike because oil was falling — correct restraint; its own note flagged the tariff front as the next trigger"},
+    {"date": "2026-07-20", "score": 72, "level": "HIGH", "outcome": "mixed_partial", "days_to_event": 1,
+     "what_happened": "Jul 21–22: the 20% Hormuz toll was dropped ('Gulf countries would instead invest in the US') — but the naval blockade proceeded, with CENTCOM redirecting vessels the next day.",
+     "evidence": [
+       "https://www.ms.now/news/trump-pauses-plan-fees-strait-of-hormuz",
+       "https://www.foxnews.com/live-news/iran-war-trump-israel-hormuz-oil-july-15-2026",
+       "https://abcnews.com/Politics/trumps-strait-hormuz-blockade-erases-concession-iran-preliminary/story?id=134717418"
+     ],
+     "hit": "partial",
+     "note": "the reading gave ~55% tactical backdown within 48h vs ~35% escalation holds — the outcome split across exactly those two axes, as its own caveat warned"}
+  ],
+  "summary": {
+    "high_or_extreme": {"n": 4, "full_hits": 3, "partial": 1},
+    "medium": {"n": 2, "consistent": 2},
+    "low": {"n": 4, "quiet_confirmed": 4},
+    "caveat": "n=10, single theme, no control group. Promising, not proven."
+  }
+}

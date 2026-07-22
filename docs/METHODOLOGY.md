@@ -57,6 +57,10 @@ If de-escalation language appears in the day's signals — *ceasefire, deal, bac
 
 The flag is evidence-carrying by contract: no quote, no flag.
 
+## Setup vs. event — two numbers, not one
+
+A lesson the readings taught: the *score* and the *state of the cycle* are different things. The score measures **resemblance to pre-reversal days** (the setup); the lifecycle state tracks **where the event actually is** (escalation, backtracked, cooldown, re-escalation). Conflating them made early backtrack flags coincident rather than anticipatory — the score lingered while the event completed. Gen-3 readings therefore carry a separate `lifecycle` block, the demo shows the cycle state next to the level chip, and the roadmap direction is to publish both numbers on equal footing.
+
 ## Pattern comparison
 
 Each reading compares the current setup against the canonical historical TACO cycles (Liberation-Day tariffs, China rollback, Iran/Hormuz) and records `best_match`, a `similarity` estimate, `key_differences`, and the `historical_outcome` — which is where context gets to overrule the number (see below).
