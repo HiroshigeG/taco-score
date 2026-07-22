@@ -1,0 +1,10 @@
+{
+  "_how_it_works": "Themes and keywords for polymarket_snapshot.py. Each theme is a list of case-insensitive substrings matched against question/slug/description of the top-volume active markets. Edit this file — not the code — when the hot theme changes; the script re-reads it on every run. If the file is missing or broken, the script falls back to built-in defaults and says so in the payload (themes_source).",
+  "themes": {
+    "iran_hormuz": ["hormuz", "iran", "strait"],
+    "tariffs_trade": ["tariff", "trade war", "trade deal", "section 301", "section 122", "usmca"],
+    "china": ["china", "taiwan", "xi jinping"],
+    "fed_powell": ["powell", "fed chair", "federal reserve", "rate cut"],
+    "greenland_europe": ["greenland", "denmark"]
+  }
+}

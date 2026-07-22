@@ -88,7 +88,7 @@ Pipeline design and the actual prompts (genericized): [`docs/pipeline.md`](docs/
 This is the instrument and its evidence — and the first roadmap items are already real:
 
 - [x] **validation protocol, frozen before the data grows** — [`docs/validation-protocol.md`](docs/validation-protocol.md) + machine-readable outcomes in [`data/outcomes.json`](data/outcomes.json)
-- [x] **public adapters v0** (stdlib-only, no keys — run them today): [Polymarket Gamma + futures volume](adapters/)
+- [x] **public adapters v0 → v1** (stdlib-only, no keys — run them today): [Polymarket Gamma + futures volume](adapters/). v1 (`polymarket_snapshot.py`) adds config-driven themes and day-over-day spike scoring, and is wired into the daily pipeline via cron
 - [x] **phrase-mining protocol, pre-registered** — [`docs/phrase-mining-protocol.md`](docs/phrase-mining-protocol.md): the folk hypotheses (night/weekend timing, the "attention to this matter" sign-off, CAPS density) get *tested*, not assumed
 - [ ] pure scorer as an installable package (deterministic, fully tested)
 - [ ] CLI (`taco score`, `taco serve`) + small API

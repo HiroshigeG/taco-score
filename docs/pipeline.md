@@ -20,7 +20,7 @@ scheduled │ signal-scanner │ ───────────────�
 | Timing urgency | post timestamps (night/weekend patterns) + macro-event proximity | archives + central-bank calendars |
 | DB pressure index | 4-week changes: S&P 500, 10Y Treasury yield, 1Y inflation expectations, approval — modeled on Deutsche Bank's unpublished index | FRED (`SP500`, `DGS10`, `MICH`/`T5YIFR`) + polling averages — [replication recipe](db-pressure-proxy.md) |
 | Futures volume anomaly | oil (WTI/Brent) and S&P e-mini volume & price *versus the direction of the threat* | market data |
-| Prediction-market spike | event-contract repricing on the active themes | Polymarket / Kalshi public markets |
+| Prediction-market spike | event-contract repricing on the active themes | Polymarket Gamma API via [`adapters/polymarket_snapshot.py`](../adapters/polymarket_snapshot.py) — daily snapshot + diff, config-driven themes; the analyst adjusts the magnitude-only `suggested_raw` for direction (Kalshi still via research) |
 | Historical precedent | library of completed TACO cycles + lifecycle state (fresh trigger vs echo/cooldown) | the instrument's own past readings |
 | Approval pressure | polling averages; visible proxies (gas prices) when polling is stale | public polls |
 
